@@ -1,0 +1,23 @@
+<script>
+let primo = true
+
+function numeroPrimo(num) {
+    
+    for(let i = 2; i < num; i++)
+        if(num % i === 0){
+            primo = false;
+        }
+            
+    if (primo){
+        console.log(num + " é primo")
+    }
+    else{
+        console.log(num + " não é primo")
+    }
+    }
+
+
+        
+
+numeroPrimo(4)
+</script>

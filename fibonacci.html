@@ -1,0 +1,16 @@
+<script>
+const numero = parseInt(prompt('Digite o numero de termos: '));
+let n1 = 0, n2 = 1, proximoTermo;
+
+console.log('Sequencia:');
+
+for (let i = 1; i <= numero; i++) {
+    console.log(n1);
+    proximoTermo = n1 + n2;
+    n1 = n2;
+    n2 = proximoTermo;
+}
+
+
+
+</script>
